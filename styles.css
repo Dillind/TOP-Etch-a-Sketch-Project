@@ -1,0 +1,44 @@
+.flex-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(rgba(96, 79, 252, 0.082), white);
+}
+
+.board {
+  width: 80%;
+  height: 80%;
+  display: grid;
+  background-color: white;
+  border: 2px solid black;
+  margin-bottom: 5px;
+}
+
+.board:hover {
+  cursor: pointer;
+}
+
+.content {
+  grid-area: 'game-content';
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 300px;
+  min-height: 300px;
+  width: 60vw;
+  height: 60vw;
+  max-width: 600px;
+  max-height: 600px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+}
+
+.buttons {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
